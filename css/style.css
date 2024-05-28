@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'SF Pro Text 6';
+  src: url('../fonts/sf-pro-text-6.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Pro Text 12';
+  src: url('../fonts/sf-pro-text-12.ttf') format('truetype');
+}
+
+body {
+  font-family: 'SF Pro Text 6', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  max-width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.header-text h1, .header-text h2 {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'SF Pro Text 12', Arial, sans-serif;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.bold {
+  font-family: 'SF Pro Text 12', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-left: 15px;
+}
+
+.projects-items {
+  margin-bottom: 20px;
+}
+
+.projects-items li {
+  margin-left: 30px;
+}
